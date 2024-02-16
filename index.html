@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="container text-center col-sm-6 ">
                     <h1>Encuentra tu SuperHero</h1>
-                    <h5>Ingresa el número del Super Heroe a buscar</h5>
+                    <h5>Ingresa el número del SuperHero a buscar</h5>
                 </div>
             </div>
         </section>
@@ -58,11 +58,18 @@
             <div class="row">
                 <div class="container col-12 col-sm-6">
                     <form role="search">
-                        <input class="form-control" type="text" placeholder="" aria-label="default input example">
-                        <button type="submit" class="d-flex text-start btn btn-primary my-3">buscar</button>
+                        <input id="input" class="form-control" type="text" placeholder=""
+                            aria-label="default input example">
+                        <button id="boton" type="submit" class="d-flex text-start btn btn-primary my-3">buscar</button>
                     </form>
                 </div>
             </div>
+        </section>
+
+        <!-- Resultados -->
+        <section>
+            <ul id="api">
+            </ul>
         </section>
     </main>
 
