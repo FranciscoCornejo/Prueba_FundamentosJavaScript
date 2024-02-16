@@ -88,7 +88,7 @@ $(document).ready(function () {
 
           let Estadisticas = [];
           for (let key in DatosAPI.powerstats) {
-            Estadisticas.push({ x: key, y: DatosAPI.powerstats[key] });
+            Estadisticas.push({ label: key, y: DatosAPI.powerstats[key] });
           }
 
           let opcion = {
